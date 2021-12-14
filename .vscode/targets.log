@@ -1,0 +1,304 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Dec 14 18:58:11 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/student/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /home/student/HW2
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/student/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/node
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'makefile', line 2)
+SOURCES := hw2_test.cxx
+# makefile (from 'makefile', line 7)
+CXXFLAGS := -std=c++11 -O3
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'makefile', line 1)
+TESTS := test1.cxx
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/student
+# environment
+SSH_CONNECTION = 192.168.111.1 53662 192.168.111.129 22
+# environment
+PATH = /home/student/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/bin:/home/student/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+VSCODE_LOG_STACK = false
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/student/HW2
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-04bd6466-104c-489c-a42e-e1b0ef94aa7e.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+HOME = /home/student
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = student
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# makefile (from 'makefile', line 3)
+HEADERS := hw2_test.h
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# environment
+XDG_SESSION_ID = 3
+# environment
+USER = student
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'makefile', line 5)
+RESULTS := test1.out
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'makefile', line 6)
+GRADE := grade.txt
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/student/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile (from 'makefile', line 4)
+TARGETS := test1.exe
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.111.1 53662 22
+# environment
+MAIL = /var/mail/student
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/student/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/bin/helpers/browser.sh
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/student/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/remote/node_modules
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=75/1024=7%, Rehash=0, Collisions=8/117=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2050, inode 788468): 7 files, no impossibilities.
+
+# 7 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: test1.exe
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+.PHONY: all test clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: grade.txt
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-14 18:56:29
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+hw2_test.cxx:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-14 18:56:29
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test1.cxx:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-14 18:56:29
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 24):
+	rm -f $(TARGETS) $(RESULTS) $(GRADE)
+
+# Not a target:
+hw2_test.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-14 18:56:29
+#  File has been updated.
+#  Successfully updated.
+
+test1.out: test1.exe
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'test1'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 21):
+	taskset -c 0 ./$< > $@ 2>&1
+
+grade.txt: test1.out
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 18):
+	grep SUCCESS $^ | wc -l > $@
+
+test1.exe: test1.cxx hw2_test.cxx hw2_test.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'test1'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := test1.exe
+# automatic
+# % := 
+# automatic
+# * := test1
+# automatic
+# + := test1.cxx hw2_test.cxx hw2_test.h
+# automatic
+# | := 
+# automatic
+# < := test1.cxx
+# automatic
+# ^ := test1.cxx hw2_test.cxx hw2_test.h
+# automatic
+# ? := test1.cxx hw2_test.cxx hw2_test.h
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=3/16=19%
+#  recipe to execute (from 'makefile', line 13):
+	$(CXX) $(CXXFLAGS) $< $(SOURCES) -o $@
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/39=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 22 / storage = 183 B / avg = 8 B
+# current buf: size = 8162 B / used = 183 B / count = 22 / avg = 8 B
+
+# strcache performance: lookups = 46 / hit rate = 52%
+# hash-table stats:
+# Load=22/8192=0%, Rehash=0, Collisions=1/46=2%
+# Finished Make data base on Tue Dec 14 18:58:11 2021
+
+ 
